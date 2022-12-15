@@ -13,7 +13,9 @@ window.onload = async function () {
     document.getElementById("pokemon-list").append(pokemon);
   }
   //If we want to have a pokemon loaded on render with it's description (getPokemon() should be intialized with such pokemon).
-  // document.getElementById("pokemon-description").innerText = pokedex[1]["description"]
+  document.getElementById("pokemon-description").innerText = pokedex[1]["description"]
+ 
+  
 };
 
 async function getPokemon(num) {

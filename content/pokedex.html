@@ -10,25 +10,30 @@
 </head>
 
 <body>
+    
+    <div class="pokedex">
+    <div class="background">
     <div id="content-box">
         <!--Left side-->
         <div id="pokemon-info">
             <div class="img-div">
-            <img id="pokemon-img">
+            <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
             </div>
             <div id="pokemon-types">
-                <span class="type-box"></span>
-                <span class="type-box"></span>
+                <span class="type-box grass">GRASS</span>
+                <span class="type-box poison">POISON</span>
             </div>
             <div class="description-box">
-            <span>Description</span>
-            <div id="pokemon-description"></div>
+            <div class="desc">DESCRIPTION</div>
+            <div id="pokemon-description">Loading Pokemon Information, Please Hold...</div>
             </div>
         </div>
 
         <!--Right Side-->
         <div id="pokemon-list">
         </div>
+    </div>
+    </div>
     </div>
     <script src="../assets/Scripts/pokedex.js"></script>
 </body>

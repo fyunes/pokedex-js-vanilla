@@ -6,11 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.83d6b10f76a5d00417888afdf053ad1a?rik=nZ4RBXN%2fb6WBYA&riu=http%3a%2f%2fpngimg.com%2fuploads%2fpokeball%2fpokeball_PNG24.png&ehk=FGMC2zP%2fF%2bFTYrCNhdwixFbFIlcviRa6RyQKQoXuaTY%3d&risl=&pid=ImgRaw&r=0" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/Styles/style.css">
     <link rel="stylesheet" href="../assets/Styles/styles.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/Styles/tailwind.css">
 </head>
 
 <body>
     
+
+    <!-- NAVBAR -->
+
+<nav class="bg-white fixed px-2 sm:px-4 py-2.5 dark:bg-slate-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-slate-600">
+  <div class="container flex flex-wrap items-center justify-between mx-auto">
+  <a href="../index.html" class="flex items-center">
+      <img src="https://pluspng.com/img-png/pokemon-go-png-http-i-imgur-com-pd5nx4d-png-1067.png" class="max-w-full h-20 m-3 sm:h-20" alt="Pokéworld Logo">
+      <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-zinc-200">Catch 'em all!</span>
+  </a>
+  <div class="flex md:order-1">
+      <button onclick="window.location.href = '../index.html';" type="button" class="text-zinc-100 bg-red-600 hover:bg-red-800 focus:outline-none font-medium rounded-lg text-xl px-9 py-3 text-center mr-3 md:mr-2 dark:bg-red-600 dark:hover:bg-red-700">Go back</button>
+  </div>
+  </div>
+</nav>
+
+    <!-- POKEDEX -->
     <div class="pokedex">
     <div class="background">
     <div id="content-box">

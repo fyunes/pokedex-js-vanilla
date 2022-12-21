@@ -13,9 +13,8 @@ window.onload = async function () {
     document.getElementById("pokemon-list").append(pokemon);
   }
   //If we want to have a pokemon loaded on render with it's description (getPokemon() should be intialized with such pokemon).
-  document.getElementById("pokemon-description").innerText = pokedex[1]["description"]
- 
-  
+  document.getElementById("pokemon-description").innerText =
+    pokedex[1]["description"];
 };
 
 async function getPokemon(num) {
@@ -32,13 +31,13 @@ async function getPokemon(num) {
   let pokemonDescription = await res.json();
 
   pokemonDescription =
-    pokemonDescription["flavor_text_entries"][9]["flavor_text"]
+    pokemonDescription["flavor_text_entries"][9]["flavor_text"];
 
   pokedex[num] = {
-    "name" : pokemonName,
-    "img" : pokemonImg,
-    "type" : pokemonType,
-    "description" : pokemonDescription,
+    name: pokemonName,
+    img: pokemonImg,
+    type: pokemonType,
+    description: pokemonDescription,
   };
 }
 
@@ -58,6 +57,6 @@ function updatePokemon() {
     typesDiv.append(type);
   }
 
-  document.getElementById("pokemon-description").innerText = pokedex[this.id]["description"];
-
+  document.getElementById("pokemon-description").innerText =
+    pokedex[this.id]["description"];
 }

@@ -18,8 +18,9 @@ Simple Pokedex project for CILSA JS crash course.
 
 ## Team members
 
-|![Image Fran](https://media.tenor.com/jHHKjbx6ZIoAAAAC/pikachu.gif) Franco |![Image Mel](https://media.tenor.com/zbx56E55ql8AAAAd/pokemon-vulpix.gif) Melina |
-| :---: | :---: | :---: |
+| Franco        | Melina    |
+| :------------: | :--------: |
+| ![Image Fran](https://media.tenor.com/jHHKjbx6ZIoAAAAC/pikachu.gif) | ![Image Mel](https://media.tenor.com/zbx56E55ql8AAAAd/pokemon-vulpix.gif) |
 
 ---
 
